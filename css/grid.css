@@ -1,0 +1,197 @@
+.container{
+  display: grid;
+  grid-template-columns:repeat(14,1fr);
+  grid-template-rows:repeat(47,70px);
+  grid-gap: 3px;
+
+}
+
+#hstartsida{
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#sbild1{
+  grid-column: 1/15;
+  grid-row: 2/12
+
+}
+
+
+#hdesigns{
+  grid-column: 1/15;
+  grid-row: 12/13;
+  text-align:center;
+}
+
+#sQuote{
+  grid-column: 1/10;
+  grid-row: 13/15
+}
+
+#sdesignaeget{
+  grid-column: 1/10;
+  grid-row: 15/19
+}
+
+#sbefintliga{
+  grid-column: 1/10;
+  grid-row: 19/23
+}
+
+#sbild2{
+  grid-column: 10/15;
+  grid-row: 13/23
+}
+
+#hoss{
+grid-column: 1/15;
+  grid-row: 23/24
+}
+
+#sbild3{
+  grid-column: 1/10;
+  grid-row: 24/34
+}
+
+#sforetaget{
+  grid-column: 10/15;
+  grid-row: 24/34
+}
+
+#hkvantitet{
+  grid-column: 1/15;
+  grid-row: 34/35
+}
+
+#section8{
+  grid-column: 1/8;
+  grid-row: 35/45
+}
+
+#section9{
+  grid-column: 8/15;
+  grid-row: 35/45
+}
+
+footer{
+  grid-column: 1/-1;
+  grid-row: 45/50
+}
+
+.ok{
+  height: 100%;
+  width: 100%;
+}
+.logga{
+  height: 70px;
+  width: 300px;
+}
+
+.okkk{
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+
+  #section1{
+    grid-column: 1/-1;
+    grid-row: 2/11
+  }
+
+  #bildtext1{
+  position: absolute;
+  top: 50px;
+  width: 50%;
+  text-align: center;
+  left: 40%;
+  font-size: 14px;
+}
+
+#bildtext2{
+top: 280px;
+width: 50%;
+left: 40%;
+ font-size: 14px;
+}
+
+#bildtext3{
+top: 350px;
+width: 50%;
+left: 40%;
+ font-size: 14px;
+}
+
+#bildtext4{
+top: 410px;
+width: 50%;
+left: 40%;
+ font-size: 14px;
+}
+
+  #sdesignaeget {
+     padding: 20px 20px;
+     font-size: 15px;
+     top: 900px;
+     width: 45%;
+     left: 1%;
+   position: absolute;
+    }
+
+  #sbefintliga {
+     padding: 20px 20px;
+     font-size: 15px;
+     top: 900px;
+     width: 45%;
+     right: 1%;
+   position: absolute;
+    }
+
+#meny{
+top: 70px;
+width: 20%;
+left: 6%;
+ font-size: 20px;
+ letter-spacing: 7px;
+ }
+
+#sbild2{
+  grid-column: 1/15;
+  grid-row: 13/23
+}
+
+#sbild3{
+  grid-column: 1/15;
+  grid-row: 28/34
+}
+
+#sforetaget{
+  grid-column: 1/15;
+  grid-row: 24/28
+}
+
+
+  header{
+    grid-column: 1/16;
+    grid-row: 1/2
+  }
+
+  footer{
+    grid-column: 1/-1;
+    grid-row: 45/50
+}
+
+    #info{
+    width: 30%;
+     font-size: 10px;
+}
+
+#footer1{
+width: 50%;
+ font-size: 40px;
+}
+}
