@@ -24,7 +24,7 @@ h2{
   color:white;
   font-family: "impact", serif;
   font-size: 25px;
-  letter-spacing: 20px;
+  letter-spacing: 7px;
 }
 h3{
   color: black; font-size: 36px;
@@ -47,6 +47,11 @@ p{
   color:Black; font-size:12px;
   font-family: "Courier New", serif;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
 #footer{
   color:Black; font-size:36px;
   font-family: "impact", serif;
@@ -55,7 +60,7 @@ p{
 
 }
 
-#meny{
+#Hem{
   color: black;
 position: absolute;
 top: 70px;

@@ -14,64 +14,35 @@
   z-index: 10;
 }
 
-#sbild1{
-  grid-column: 1/15;
-  grid-row: 2/12
-
-}
-
-
 #hdesigns{
   grid-column: 1/15;
-  grid-row: 12/13;
+  grid-row: 2/3;
   text-align:center;
 }
 
-#sQuote{
-  grid-column: 1/10;
-  grid-row: 13/15
-}
-
-#sdesignaeget{
-  grid-column: 1/10;
-  grid-row: 15/19
-}
-
-#sbefintliga{
-  grid-column: 1/10;
-  grid-row: 19/23
-}
-
-#sbild2{
-  grid-column: 10/15;
-  grid-row: 13/23
-}
-
-#hoss{
-grid-column: 1/15;
-  grid-row: 23/24
-}
-
-#sbild3{
-  grid-column: 1/10;
-  grid-row: 24/34
-}
-
-#sforetaget{
-  grid-column: 10/15;
-  grid-row: 24/34
-}
-
-#hkvantitet{
+#section21{
   grid-column: 1/15;
-  grid-row: 34/35
+  grid-row: 3/4;
 }
 
-#section8{
+#f1{
+  grid-column: 1/5;
+  grid-row: 4/7;
+}
+#f2{
+  grid-column: 5/10;
+  grid-row: 4/7;
+}
+
+#f3{
+  grid-column: 10/15;
+  grid-row: 4/7;
+}
+
+#b{
   grid-column: 1/15;
-  grid-row: 35/45
+  grid-row: 9/10
 }
-
 
 footer{
   grid-column: 1/-1;
@@ -94,82 +65,14 @@ footer{
 
 @media screen and (max-width: 700px) {
 
-  #section1{
-    grid-column: 1/-1;
-    grid-row: 2/11
-  }
-
-  #bildtext1{
-  position: absolute;
-  top: 50px;
-  width: 50%;
-  text-align: center;
-  left: 40%;
-  font-size: 14px;
-}
-
-#bildtext2{
-top: 280px;
-width: 50%;
-left: 40%;
- font-size: 14px;
-}
-
-#bildtext3{
-top: 350px;
-width: 50%;
-left: 40%;
- font-size: 14px;
-}
-
-#bildtext4{
-top: 410px;
-width: 50%;
-left: 40%;
- font-size: 14px;
-}
-
-  #sdesignaeget {
-     padding: 20px 20px;
-     font-size: 15px;
-     top: 900px;
-     width: 45%;
-     left: 1%;
-   position: absolute;
-    }
-
-  #sbefintliga {
-     padding: 20px 20px;
-     font-size: 15px;
-     top: 900px;
-     width: 45%;
-     right: 1%;
-   position: absolute;
-    }
 
 #meny{
-top: 70px;
+top: 90px;
 width: 20%;
 left: 6%;
  font-size: 20px;
  letter-spacing: 7px;
  }
-
-#sbild2{
-  grid-column: 1/15;
-  grid-row: 13/23
-}
-
-#sbild3{
-  grid-column: 1/15;
-  grid-row: 28/34
-}
-
-#sforetaget{
-  grid-column: 1/15;
-  grid-row: 24/28
-}
-
 
   header{
     grid-column: 1/16;
@@ -184,6 +87,7 @@ left: 6%;
     #info{
     width: 30%;
      font-size: 10px;
+
 }
 
 #footer1{

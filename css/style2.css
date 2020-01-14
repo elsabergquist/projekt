@@ -27,6 +27,10 @@
   text-align: center;
 }
 
+#b{
+  background-color: #f8f9f9;
+  text-align: center;
+}
 footer {
   background-color: #f5b041;
 }
@@ -41,7 +45,7 @@ h2{
   color:white;
   font-family: "impact", serif;
   font-size: 25px;
-  letter-spacing: 20px;
+  letter-spacing: 7px;
 }
 h3{
   color: black; font-size: 36px;
@@ -64,6 +68,11 @@ p{
   color:Black; font-size:12px;
   font-family: "Courier New", serif;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
 #footer{
   color:Black; font-size:36px;
   font-family: "impact", serif;
@@ -72,7 +81,7 @@ p{
 
 }
 
-#meny{
+#Hem{
   color: black;
 position: absolute;
 top: 70px;
@@ -114,12 +123,12 @@ position: absolute;
 top: 700px;
 width: 30%;
 text-align: center;
-left: 65%;
+left: 55%;
 
 border: 2px solid #f5b041;
  background-color: #f5b041;
  color: white;
- padding: 14px 10px;
+ padding: 5px 10px;
  font-size: 15px;
  cursor: pointer;
  font-family: "Courier New", serif;

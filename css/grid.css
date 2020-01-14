@@ -17,9 +17,7 @@
 #sbild1{
   grid-column: 1/15;
   grid-row: 2/12
-
 }
-
 
 #hdesigns{
   grid-column: 1/15;
@@ -68,20 +66,19 @@ grid-column: 1/15;
 }
 
 #section8{
-  grid-column: 1/8;
+  grid-column: 1/15;
   grid-row: 35/45
 }
 
-#section9{
-  grid-column: 8/15;
-  grid-row: 35/45
-}
 
 footer{
   grid-column: 1/-1;
   grid-row: 45/50
 }
-
+.okk{
+  height: 100%;
+  width: 100%;
+}
 .ok{
   height: 100%;
   width: 100%;
@@ -152,7 +149,7 @@ left: 40%;
     }
 
 #meny{
-top: 70px;
+top: 90px;
 width: 20%;
 left: 6%;
  font-size: 20px;
@@ -173,6 +170,13 @@ left: 6%;
   grid-column: 1/15;
   grid-row: 24/28
 }
+
+#section8{
+  grid-column: 1/15;
+  grid-row: 35/45
+}
+
+
 
 
   header{

@@ -72,8 +72,9 @@
 #sforetaget {
   background-color: #f8f9f9;
   text-align:center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 200px;
 }
 
 #hkvantitet {
@@ -85,11 +86,8 @@
   background-color: #f8f9f9;
   text-align: center;
   padding-top: 150px;
-}
-
-#section9 {
-  background-color: #f8f9f9;
-  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 footer {
@@ -100,13 +98,13 @@ h1{
   color: black;
   font-family: "impact", serif;
   font-size: 42px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 h2{
   color:white;
   font-family: "impact", serif;
   font-size: 25px;
-  letter-spacing: 20px;
+  letter-spacing: 7px;
 }
 h3{
   color: black; font-size: 36px;
@@ -114,7 +112,7 @@ h3{
   font-family: "Courier New", serif;
 }
 h4{
-  color:Black; font-size:36px;
+  color:Black; font-size:26px;
   font-family: "Courier New", serif;
 }
 h5{
@@ -122,18 +120,22 @@ h5{
   font-family: "Courier New", serif;
 }
 h6{
-  color:Black; font-size: 20px;
+  color:Black; font-size: 15px;
   font-family: "Courier New", serif;
 }
 p{
   color:Black; font-size:16px;
   font-family: "Courier New", serif;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 #footer{
   color:Black; font-size:36px;
   font-family: "impact", serif;
   font-size: 42px;
-  letter-spacing: 20px;
+  letter-spacing: 10px;
 
 }
 #logga{
@@ -203,7 +205,7 @@ border: 2px solid white;
 }
 
 
-#meny{
+#Hem{
   color: black;
 position: absolute;
 top: 70px;
@@ -236,7 +238,7 @@ border: 2px solid #f5b041;
  font-size: 40px;
  cursor: pointer;
  font-family: "impact", serif;
- letter-spacing: 15px;
+ letter-spacing: 10px;
 }
 
 #info{
