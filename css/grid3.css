@@ -26,27 +26,44 @@
 }
 
 #f1{
-  grid-column: 1/5;
-  grid-row: 4/7;
+  grid-column: 1/6;
+  grid-row: 4/9;
 }
 #f2{
-  grid-column: 5/10;
-  grid-row: 4/7;
+  grid-column: 6/10;
+  grid-row: 4/9;
 }
 
 #f3{
   grid-column: 10/15;
-  grid-row: 4/7;
+  grid-row: 4/9;
 }
 
 #b{
   grid-column: 1/15;
   grid-row: 9/10
+
+}
+
+    #info{
+    width: 50%;
+     font-size: 15px;
+     left: 8px;
+     padding-top: 10px;
+     top: 750px;
+}
+
+#footer1{
+width: 50%;
+ font-size: 40px;
+ left: 8px;
+ padding-top: 10px;
+ top: 670px;
 }
 
 footer{
   grid-column: 1/-1;
-  grid-row: 45/50
+  grid-row: 10/12
 }
 
 .ok{
