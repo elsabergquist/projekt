@@ -102,7 +102,13 @@ left: 6%;
  font-size: 14px;
  letter-spacing: 7px;
  }
-
+ #English{
+ top: 150px;
+ width: 25%;
+ left: 6%;
+  font-size: 14px;
+  letter-spacing: 7px;
+  }
  #hdesigns{
    grid-column: 1/15;
    grid-row: 2/3;

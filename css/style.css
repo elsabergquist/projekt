@@ -124,7 +124,7 @@ h6{
   font-family: "Courier New", serif;
 }
 p{
-  color:Black; font-size:14px;
+  color:Black; font-size:8px;
   font-family: "Courier New", serif;
 }
 a{
@@ -208,8 +208,25 @@ border: 2px solid white;
 #Hem{
   color: black;
 position: absolute;
-top: 70px;
-width: 20%;
+top: 90px;
+width: 25%;
+text-align: center;
+left: 6%;
+
+border: 2px solid #f8f9f9;
+ background-color: #f8f9f9;
+ color: black;
+ padding: 14px 14px;
+ font-size: 17px;
+ cursor: pointer;
+ font-family: "impact", serif;
+ letter-spacing: 5px;
+}
+#English{
+  color: black;
+position: absolute;
+top: 150px;
+width: 25%;
 text-align: center;
 left: 6%;
 
@@ -261,4 +278,20 @@ border: 2px solid #f5b041;
 .logga{
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.ok {
+  width: 100%;
+}
+
+#mobile {
+  display: none;
+}
+
+@media (max-aspect-ratio: 1/1) {
+  #mobile {
+    display: block;
+  }
+  #standard {
+    display: none;
+  }
 }
