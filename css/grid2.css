@@ -28,7 +28,7 @@
 
 #blå1{
   grid-column: 1/6;
-  grid-row: 4/6;
+  grid-row: 4/6
 }
 #blå2{
   grid-column: 6/10;
@@ -99,21 +99,16 @@ width: 50%;
 top: 90px;
 width: 20%;
 left: 6%;
- font-size: 14px;
- letter-spacing: 7px;
  }
  #English{
  top: 150px;
  width: 25%;
  left: 6%;
-  font-size: 14px;
-  letter-spacing: 7px;
   }
  #hdesigns{
    grid-column: 1/15;
    grid-row: 2/3;
    text-align:right;
-   font-size: 10px;
  }
 
   header{
@@ -128,7 +123,6 @@ left: 6%;
 
     #info{
     width: 50%;
-     font-size: 15px;
      left: 8px;
      padding-top: 10px;
      top:740px;
@@ -136,7 +130,6 @@ left: 6%;
 
 #footer1{
 width: 50%;
- font-size: 30px;
- left: 8px;
+left: 8px;
 }
 }

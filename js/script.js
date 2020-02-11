@@ -23,9 +23,9 @@ function changeLanguage() {
     textRuta.innerHTML = svenska;
     nuvarandeSprak = "Svenska";
     document.getElementById("English").innerText = "English";
-  }
 }
 
+}
 document.getElementById("English").onclick = function () {
     changeLanguage();
 }

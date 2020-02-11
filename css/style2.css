@@ -138,3 +138,23 @@ border: 2px solid #f5b041;
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+@media (max-aspect-ratio: 1/1) {
+  #hem{
+   font-size: 14px;
+   letter-spacing: 7px;
+   }
+   #English{
+    font-size: 14px;
+    letter-spacing: 7px;
+    }
+   #hdesigns{
+     font-size: 10px;
+   }
+   #info{
+     font-size: 15px;
+  }
+   #footer1{
+   font-size: 30px;
+  }
+}

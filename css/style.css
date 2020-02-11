@@ -288,10 +288,56 @@ border: 2px solid #f5b041;
 }
 
 @media (max-aspect-ratio: 1/1) {
+  h6{
+    color:Black; font-size: 11px;
+    font-family: "Courier New", serif;
+  }
+  h4{
+    color:Black; font-size:16px;
+    font-family: "Courier New", serif;
+  }
+
   #mobile {
     display: block;
   }
   #standard {
     display: none;
+  }
+  #bildtext1{
+    font-size: 12px;
+  }
+  #bildtext2{
+    font-size: 14px;
+  }
+  #bildtext3{
+   font-size: 14px;
+  }
+  #bildtext4{
+   font-size: 14px;
+  }
+  #sdesignaeget{
+   padding: 10px 10px;
+   font-size: 12px;
+  }
+  #sbefintliga {
+   padding: 10px 10px;
+   font-size: 12px;
+  }
+  #hem{
+   font-size: 14px;
+   letter-spacing: 7px;
+  }
+  #English{
+   font-size: 15px;
+   letter-spacing: 3px;
+  }
+  #section8{
+    font-size: 15px;
+  }
+  #info{
+    font-size: 10px;
+  }
+  #footer1{
+   font-size: 20px;
   }
 }

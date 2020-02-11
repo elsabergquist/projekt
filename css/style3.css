@@ -123,3 +123,24 @@ border: 2px solid #f5b041;
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+@media (max-aspect-ratio: 1/1) {
+
+  h2{
+    color:white;
+    font-family: "impact", serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: right;
+  }
+  #hem{
+   font-size: 14px;
+   letter-spacing: 7px;
+   }
+  #info{
+   font-size: 10px;
+  }
+  #footer1{
+   font-size: 40px;
+  }
+  }
