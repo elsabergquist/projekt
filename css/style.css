@@ -4,7 +4,6 @@
 }
 
 #sbild1 {
-  background-color: lightblue;
   position:relative;
 }
 
@@ -20,8 +19,7 @@
 
   border: 2px solid white;
    background-color: #f5b041;
-   color: white;
-   padding: 14px 14px;
+   padding: 52px 14px;
    font-size: 36px;
    cursor: pointer;
    font-family: "Courier New", serif;
@@ -34,7 +32,6 @@
 
   border: 2px solid white;
    background-color: #f5b041;
-   color: white;
    padding: 14px 14px;
    font-size: 36px;
    cursor: pointer;
@@ -48,7 +45,6 @@
 
   border: 2px solid white;
    background-color: #f5b041;
-   color: white;
    padding: 14px 14px;
    font-size: 36px;
    cursor: pointer;
@@ -65,7 +61,6 @@
 }
 
 #sbild3 {
-  background-color: darkgrey;
   position:relative;
 }
 
@@ -95,7 +90,6 @@ footer {
 }
 
 h1{
-  color: black;
   font-family: "impact", serif;
   font-size: 42px;
   letter-spacing: 5px;
@@ -163,7 +157,6 @@ left: 40%;
 
 border: 2px solid white;
  background-color: #f5b041;
- color: white;
  padding: 14px 14px;
  font-size: 14px;
  cursor: pointer;
@@ -180,7 +173,6 @@ left: 58%;
 
 border: 2px solid white;
  background-color: #f5b041;
- color: white;
  padding: 14px 14px;
  font-size: 14px;
  cursor: pointer;
@@ -197,7 +189,6 @@ left: 76%;
 
 border: 2px solid white;
  background-color: #f5b041;
- color: white;
  padding: 14px 14px;
  font-size: 14px;
  cursor: pointer;
@@ -215,7 +206,6 @@ left: 6%;
 
 border: 2px solid #f8f9f9;
  background-color: #f8f9f9;
- color: black;
  padding: 14px 14px;
  font-size: 17px;
  cursor: pointer;
@@ -232,7 +222,6 @@ left: 6%;
 
 border: 2px solid #f8f9f9;
  background-color: #f8f9f9;
- color: black;
  padding: 14px 14px;
  font-size: 17px;
  cursor: pointer;
@@ -250,7 +239,6 @@ left: 5%;
 
 border: 2px solid #f5b041;
  background-color: #f5b041;
- color: white;
  padding: 50px 14px;
  font-size: 40px;
  cursor: pointer;
@@ -268,7 +256,6 @@ left: 5%;
 
 border: 2px solid #f5b041;
  background-color: #f5b041;
- color: white;
  padding: 14px 10px;
  font-size: 15px;
  cursor: pointer;
@@ -289,11 +276,13 @@ border: 2px solid #f5b041;
 
 @media (max-aspect-ratio: 1/1) {
   h6{
-    color:Black; font-size: 11px;
+    color:Black;
+    font-size: 11px;
     font-family: "Courier New", serif;
   }
   h4{
-    color:Black; font-size:16px;
+    color:Black;
+    font-size:16px;
     font-family: "Courier New", serif;
   }
 
