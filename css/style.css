@@ -1,55 +1,55 @@
 #hstartsida {
   background-color: #f2f3f4;
-  text-align:center;
+  text-align: center;
 }
 
 #sbild1 {
-  position:relative;
+  position: relative;
 }
 
 #hdesigns {
   background-color: #f5b041;
-  text-align:center;
+  text-align: center;
 }
 
 #sQuote {
-  background-color: #f8f9f9;
-  text-align:center;
-  color: white;
-
+  text-align: center;
+  height: 100%;
   border: 2px solid white;
-   background-color: #f5b041;
-   padding: 52px 14px;
-   font-size: 36px;
-   cursor: pointer;
-   font-family: "Courier New", serif;
-  }
+  background-color: #f5b041;
+}
+
+#sQuote>p {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  font-family: "Courier New", serif;
+  font-size: 36px;
+}
 
 #sdesignaeget {
   background-color: #f8f9f9;
-  text-align:center;
+  text-align: center;
   color: white;
-
   border: 2px solid white;
-   background-color: #f5b041;
-   padding: 14px 14px;
-   font-size: 36px;
-   cursor: pointer;
-   font-family: "Courier New", serif;
-  }
+  background-color: #f5b041;
+  padding: 14px 14px;
+  font-size: 36px;
+  cursor: pointer;
+  font-family: "Courier New", serif;
+}
 
 #sbefintliga {
   background-color: #f8f9f9;
-  text-align:center;
+  text-align: center;
   color: white;
-
   border: 2px solid white;
-   background-color: #f5b041;
-   padding: 14px 14px;
-   font-size: 36px;
-   cursor: pointer;
-   font-family: "Courier New", serif;
-  }
+  background-color: #f5b041;
+  padding: 14px 14px;
+  font-size: 36px;
+  cursor: pointer;
+  font-family: "Courier New", serif;
+}
 
 #sbild2 {
   background-color: #f8f9f9;
@@ -57,16 +57,16 @@
 
 #hoss {
   background-color: #f5b041;
-  text-align:center;
+  text-align: center;
 }
 
 #sbild3 {
-  position:relative;
+  position: relative;
 }
 
 #sforetaget {
   background-color: #f8f9f9;
-  text-align:center;
+  text-align: center;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 200px;
@@ -74,7 +74,7 @@
 
 #hkvantitet {
   background-color: #f5b041;
-  text-align:center;
+  text-align: center;
 }
 
 #section8 {
@@ -89,183 +89,189 @@ footer {
   background-color: #f5b041;
 }
 
-h1{
+h1 {
   font-family: "impact", serif;
   font-size: 42px;
   letter-spacing: 5px;
 }
-h2{
-  color:white;
+
+h2 {
+  color: white;
   font-family: "impact", serif;
   font-size: 25px;
   letter-spacing: 7px;
 }
-h3{
-  color: black; font-size: 36px;
+
+h3 {
+  color: black;
+  font-size: 36px;
   border: 5px;
   font-family: "Courier New", serif;
 }
-h4{
-  color:Black; font-size:26px;
+
+h4 {
+  color: Black;
+  font-size: 26px;
   font-family: "Courier New", serif;
 }
-h5{
-  color:Black; font-size:50px;
+
+h5 {
+  color: Black;
+  font-size: 50px;
   font-family: "Courier New", serif;
 }
-h6{
-  color:Black; font-size: 15px;
+
+h6 {
+  color: Black;
+  font-size: 15px;
   font-family: "Courier New", serif;
 }
-p{
-  color:Black; font-size:8px;
+
+p {
+  color: Black;
+  font-size: 8px;
   font-family: "Courier New", serif;
 }
-a{
+
+a {
   text-decoration: none;
   color: inherit;
 }
-#footer{
-  color:Black; font-size:36px;
+
+#footer {
+  color: Black;
+  font-size: 36px;
   font-family: "impact", serif;
   font-size: 42px;
   letter-spacing: 10px;
-
-}
-#logga{
-
 }
 
-#bildtext1{
+#logga {}
+
+#bildtext1 {
   color: white;
-position: absolute;
-top: 50px;
-width: 50%;
-text-align: center;
-left: 40%;
-font-family: "Courier New", serif;
-font-size: 18px;
+  position: absolute;
+  top: 50px;
+  width: 50%;
+  text-align: center;
+  left: 40%;
+  font-family: "Courier New", serif;
+  font-size: 18px;
 }
 
-#bildtext2{
+#bildtext2 {
   color: white;
-position: absolute;
-top: 280px;
-width: 15%;
-text-align: center;
-left: 40%;
-
-border: 2px solid white;
- background-color: #f5b041;
- padding: 14px 14px;
- font-size: 14px;
- cursor: pointer;
- font-family: "Courier New", serif;
+  position: absolute;
+  top: 280px;
+  width: 15%;
+  text-align: center;
+  left: 40%;
+  border: 2px solid white;
+  background-color: #f5b041;
+  padding: 14px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Courier New", serif;
 }
 
-#bildtext3{
+#bildtext3 {
   color: white;
-position: absolute;
-top: 280px;
-width: 15%;
-text-align: center;
-left: 58%;
-
-border: 2px solid white;
- background-color: #f5b041;
- padding: 14px 14px;
- font-size: 14px;
- cursor: pointer;
- font-family: "Courier New", serif;
+  position: absolute;
+  top: 280px;
+  width: 15%;
+  text-align: center;
+  left: 58%;
+  border: 2px solid white;
+  background-color: #f5b041;
+  padding: 14px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Courier New", serif;
 }
 
-#bildtext4{
+#bildtext4 {
   color: white;
-position: absolute;
-top: 280px;
-width: 15%;
-text-align: center;
-left: 76%;
-
-border: 2px solid white;
- background-color: #f5b041;
- padding: 14px 14px;
- font-size: 14px;
- cursor: pointer;
- font-family: "Courier New", serif;
+  position: absolute;
+  top: 280px;
+  width: 15%;
+  text-align: center;
+  left: 76%;
+  border: 2px solid white;
+  background-color: #f5b041;
+  padding: 14px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Courier New", serif;
 }
 
-
-#Hem{
+#Hem {
   color: black;
-position: absolute;
-top: 90px;
-width: 25%;
-text-align: center;
-left: 6%;
-
-border: 2px solid #f8f9f9;
- background-color: #f8f9f9;
- padding: 14px 14px;
- font-size: 17px;
- cursor: pointer;
- font-family: "impact", serif;
- letter-spacing: 5px;
+  position: absolute;
+  top: 90px;
+  width: 25%;
+  text-align: center;
+  left: 6%;
+  border: 2px solid #f8f9f9;
+  background-color: #f8f9f9;
+  padding: 14px 14px;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: "impact", serif;
+  letter-spacing: 5px;
 }
-#English{
+
+#English {
   color: black;
-position: absolute;
-top: 150px;
-width: 25%;
-text-align: center;
-left: 6%;
-
-border: 2px solid #f8f9f9;
- background-color: #f8f9f9;
- padding: 14px 14px;
- font-size: 17px;
- cursor: pointer;
- font-family: "impact", serif;
- letter-spacing: 5px;
+  position: absolute;
+  top: 150px;
+  width: 25%;
+  text-align: center;
+  left: 6%;
+  border: 2px solid #f8f9f9;
+  background-color: #f8f9f9;
+  padding: 14px 14px;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: "impact", serif;
+  letter-spacing: 5px;
 }
 
-#footer1{
+#footer1 {
   color: white;
-position: absolute;
-top: 3260px;
-width: 30%;
-text-align: center;
-left: 5%;
-
-border: 2px solid #f5b041;
- background-color: #f5b041;
- padding: 50px 14px;
- font-size: 40px;
- cursor: pointer;
- font-family: "impact", serif;
- letter-spacing: 10px;
+  position: absolute;
+  top: 3260px;
+  width: 30%;
+  text-align: center;
+  left: 5%;
+  border: 2px solid #f5b041;
+  background-color: #f5b041;
+  padding: 50px 14px;
+  font-size: 40px;
+  cursor: pointer;
+  font-family: "impact", serif;
+  letter-spacing: 10px;
 }
 
-#info{
+#info {
   color: white;
-position: absolute;
-top: 3365px;
-width: 30%;
-text-align: center;
-left: 5%;
-
-border: 2px solid #f5b041;
- background-color: #f5b041;
- padding: 14px 10px;
- font-size: 15px;
- cursor: pointer;
- font-family: "Courier New", serif;
+  position: absolute;
+  top: 3365px;
+  width: 30%;
+  text-align: center;
+  left: 5%;
+  border: 2px solid #f5b041;
+  background-color: #f5b041;
+  padding: 14px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Courier New", serif;
 }
 
-.logga{
+.logga {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 .ok {
   width: 100%;
 }
@@ -275,58 +281,71 @@ border: 2px solid #f5b041;
 }
 
 @media (max-aspect-ratio: 1/1) {
-  h6{
-    color:Black;
+  h6 {
+    color: Black;
     font-size: 11px;
     font-family: "Courier New", serif;
   }
-  h4{
-    color:Black;
-    font-size:16px;
+
+  h4 {
+    color: Black;
+    font-size: 16px;
     font-family: "Courier New", serif;
   }
 
   #mobile {
     display: block;
   }
+
   #standard {
     display: none;
   }
-  #bildtext1{
+
+  #bildtext1 {
     font-size: 12px;
   }
-  #bildtext2{
+
+  #bildtext2 {
     font-size: 14px;
   }
-  #bildtext3{
-   font-size: 14px;
+
+  #bildtext3 {
+    font-size: 14px;
   }
-  #bildtext4{
-   font-size: 14px;
+
+  #bildtext4 {
+    font-size: 14px;
   }
-  #sdesignaeget{
-   padding: 10px 10px;
-   font-size: 12px;
+
+  #sdesignaeget {
+    padding: 10px 10px;
+    font-size: 12px;
   }
+
   #sbefintliga {
-   padding: 10px 10px;
-   font-size: 12px;
+    padding: 10px 10px;
+    font-size: 12px;
   }
-  #hem{
-   font-size: 14px;
-   letter-spacing: 7px;
+
+  #hem {
+    font-size: 14px;
+    letter-spacing: 7px;
   }
-  #English{
-   font-size: 15px;
-   letter-spacing: 3px;
+
+  #English {
+    font-size: 15px;
+    letter-spacing: 3px;
   }
-  #section8{
+
+  #section8 {
     font-size: 15px;
   }
-  #info{
+
+  #info {
     font-size: 10px;
   }
-  #footer1{
-   font-size: 20px;
+
+  #footer1 {
+    font-size: 20px;
   }
 }
