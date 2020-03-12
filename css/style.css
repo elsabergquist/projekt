@@ -205,25 +205,16 @@ a {
 }
 
 #Hem {
-  color: black;
-  position: absolute;
   top: 90px;
-  width: 25%;
-  text-align: center;
-  left: 6%;
-  border: 2px solid #f8f9f9;
-  background-color: #f8f9f9;
-  padding: 14px 14px;
-  font-size: 17px;
-  cursor: pointer;
-  font-family: "impact", serif;
-  letter-spacing: 5px;
 }
 
 #English {
+  top: 150px;
+}
+
+.button-link {
   color: black;
   position: absolute;
-  top: 150px;
   width: 25%;
   text-align: center;
   left: 6%;
@@ -237,33 +228,27 @@ a {
 }
 
 #footer1 {
-  color: white;
-  position: absolute;
-  top: 3260px;
-  width: 30%;
-  text-align: center;
-  left: 5%;
-  border: 2px solid #f5b041;
-  background-color: #f5b041;
+  top: 3200px;
   padding: 50px 14px;
   font-size: 40px;
-  cursor: pointer;
-  font-family: "impact", serif;
   letter-spacing: 10px;
 }
 
 #info {
+  top: 3365px;
+  padding: 14px 10px;
+  font-size: 15px;
+  font-family: "Courier New", serif;
+}
+
+.footer {
   color: white;
   position: absolute;
-  top: 3365px;
   width: 30%;
   text-align: center;
   left: 5%;
   border: 2px solid #f5b041;
   background-color: #f5b041;
-  padding: 14px 10px;
-  font-size: 15px;
-  cursor: pointer;
   font-family: "Courier New", serif;
 }
 

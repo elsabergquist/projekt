@@ -33,11 +33,13 @@
 #f2 {
   grid-column: 6/10;
   grid-row: 4/9;
+  margin-left: 4%;
 }
 
 #f3 {
   grid-column: 10/15;
   grid-row: 4/9;
+  margin-left: 27%;
 }
 
 #b {
@@ -46,19 +48,11 @@
 }
 
 #info {
-  width: 50%;
-  font-size: 15px;
-  left: 8px;
-  padding-top: 10px;
-  top: 750px;
+  top: 730px;
 }
 
 #footer1 {
-  width: 50%;
-  font-size: 40px;
-  left: 8px;
-  padding-top: 10px;
-  top: 670px;
+  top: 620px;
 }
 
 footer {
@@ -67,8 +61,8 @@ footer {
 }
 
 .ok {
-  height: 100%;
-  width: 100%;
+  height: 400px;
+  width: 370px;
 }
 
 .logga {
@@ -99,10 +93,16 @@ footer {
   }
 
   #info {
-    width: 95%;
+    top: 900px;
   }
 
   #footer1 {
-    width: 95%;
+    top: 770px;
+  }
+
+  .footer {
+    width: 50%;
+    left: 8px;
+    padding-top: 10px;
   }
 }

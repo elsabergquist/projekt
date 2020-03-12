@@ -94,11 +94,6 @@ footer {
   width: 300px;
 }
 
-.okkk {
-  height: 100%;
-  width: 100%;
-}
-
 @media screen and (max-width: 700px) {
   #section1 {
     grid-column: 1/-1;
