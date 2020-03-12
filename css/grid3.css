@@ -1,110 +1,108 @@
-.container{
+.container {
   display: grid;
-  grid-template-columns:repeat(14,1fr);
-  grid-template-rows:repeat(47,70px);
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(47, 70px);
   grid-gap: 3px;
-
 }
 
-#hstartsida{
-  position:fixed;
+#hstartsida {
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 10;
 }
 
-#hdesigns{
+#hdesigns {
   grid-column: 1/15;
   grid-row: 2/3;
-  text-align:center;
+  text-align: center;
 }
 
-#section21{
+#section21 {
   grid-column: 1/15;
   grid-row: 3/4;
 }
 
-#f1{
+/*Bild på olika blåa mönster*/
+#f1 {
   grid-column: 1/6;
   grid-row: 4/9;
 }
-#f2{
+
+#f2 {
   grid-column: 6/10;
   grid-row: 4/9;
 }
 
-#f3{
+#f3 {
   grid-column: 10/15;
   grid-row: 4/9;
 }
 
-#b{
+#b {
   grid-column: 1/15;
   grid-row: 9/10
-
 }
 
-    #info{
-    width: 50%;
-     font-size: 15px;
-     left: 8px;
-     padding-top: 10px;
-     top: 750px;
+#info {
+  width: 50%;
+  font-size: 15px;
+  left: 8px;
+  padding-top: 10px;
+  top: 750px;
 }
 
-#footer1{
-width: 50%;
- font-size: 40px;
- left: 8px;
- padding-top: 10px;
- top: 670px;
+#footer1 {
+  width: 50%;
+  font-size: 40px;
+  left: 8px;
+  padding-top: 10px;
+  top: 670px;
 }
 
-footer{
+footer {
   grid-column: 1/-1;
   grid-row: 10/12
 }
 
-.ok{
+.ok {
   height: 100%;
   width: 100%;
 }
-.logga{
+
+.logga {
   height: 70px;
   width: 300px;
 }
 
-.okkk{
+.okkk {
   height: 100%;
   width: 100%;
 }
 
 @media screen and (max-width: 700px) {
+  #hem {
+    top: 90px;
+    width: 20%;
+    left: 6%;
+  }
 
-
-#hem{
-top: 90px;
-width: 20%;
-left: 6%;
- }
-
-  header{
+  header {
     grid-column: 1/-1;
     grid-row: 1/2
   }
 
-  footer{
+  footer {
     grid-column: 1/-1;
     grid-row: 45/50
-}
+  }
 
-    #info{
+  #info {
     width: 95%;
+  }
 
-}
-
-#footer1{
-width: 95%;
-}
+  #footer1 {
+    width: 95%;
+  }
 }

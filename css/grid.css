@@ -1,188 +1,192 @@
-.container{
+.container {
   display: grid;
-  grid-template-columns:repeat(14,1fr);
-  grid-template-rows:repeat(47,70px);
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(47, 70px);
   grid-gap: 3px;
-
 }
-/**/
-#hstartsida{
-  position:fixed;
+
+/*h innan ett ord står för header och s innan ett ord står för section*/
+#hstartsida {
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 10;
 }
 
-#sbild1{
+/*Bild på landskap*/
+#sbild1 {
   grid-column: 1/-1;
   grid-row: 2/12
 }
 
-#hdesigns{
+#hdesigns {
   grid-column: 1/-1;
   grid-row: 12/13;
-  text-align:center;
+  text-align: center;
 }
 
-#sQuote{
+/*"säljande quote"*/
+#sQuote {
   grid-column: 1/10;
   grid-row: 13/15
 }
 
-#sdesignaeget{
+#sdesignaeget {
   grid-column: 1/10;
   grid-row: 15/19
 }
 
-#sbefintliga{
+#sbefintliga {
   grid-column: 1/10;
   grid-row: 19/23
 }
 
-#sbild2{
+/*Bild på datorfodral*/
+#sbild2 {
   grid-column: 10/-1;
   grid-row: 13/23
 }
 
-#hoss{
-grid-column: 1/-1;
+#hoss {
+  grid-column: 1/-1;
   grid-row: 23/24
 }
 
-#sbild3{
+/*Bild på vindruveodling*/
+#sbild3 {
   grid-column: 1/10;
   grid-row: 24/34
 }
 
-#sforetaget{
+#sforetaget {
   grid-column: 10/-1;
   grid-row: 24/34
 }
 
-#hkvantitet{
+#hkvantitet {
   grid-column: 1/-1;
   grid-row: 34/35
 }
 
-#section8{
+#section8 {
   grid-column: 1/-1;
   grid-row: 35/45
 }
 
-
-footer{
+footer {
   grid-column: 1/-1;
   grid-row: 45/50
 }
-.okk{
+
+.okk {
   height: 100%;
   width: 100%;
 }
-.ok{
+
+.ok {
   height: 100%;
   width: 100%;
 }
-.logga{
+
+.logga {
   height: 70px;
   width: 300px;
 }
 
-.okkk{
+.okkk {
   height: 100%;
   width: 100%;
 }
 
 @media screen and (max-width: 700px) {
-
-  #section1{
+  #section1 {
     grid-column: 1/-1;
     grid-row: 2/11
   }
 
-  #bildtext1{
-  position: absolute;
-  top: 50px;
-  width: 50%;
-  text-align: center;
-  left: 40%;
-}
+  #bildtext1 {
+    position: absolute;
+    top: 50px;
+    width: 50%;
+    text-align: center;
+    left: 40%;
+  }
 
-  #bildtext2{
-  top: 280px;
-  width: 50%;
-  left: 40%;
-}
+  #bildtext2 {
+    top: 280px;
+    width: 50%;
+    left: 40%;
+  }
 
-#bildtext3{
-top: 350px;
-width: 50%;
-left: 40%;
-}
+  #bildtext3 {
+    top: 350px;
+    width: 50%;
+    left: 40%;
+  }
 
-#bildtext4{
-top: 410px;
-width: 50%;
-left: 40%;
-}
+  #bildtext4 {
+    top: 410px;
+    width: 50%;
+    left: 40%;
+  }
 
-#sdesignaeget {
-  top: 900px;
-  width: 45%;
-  left: 1%;
-  position: absolute;
-    }
+  #sdesignaeget {
+    top: 900px;
+    width: 45%;
+    left: 1%;
+    position: absolute;
+  }
 
   #sbefintliga {
-   top: 900px;
-   width: 45%;
-   right: 1%;
-   position: absolute;
-    }
+    top: 900px;
+    width: 45%;
+    right: 1%;
+    position: absolute;
+  }
 
-  #hem{
-   top: 110px;
-   width: 30%;
-   left: 6%;
- }
+  #hem {
+    top: 110px;
+    width: 30%;
+    left: 6%;
+  }
 
-#sbild2{
-  grid-column: 1/-1;
-  grid-row: 13/23
-}
+  #sbild2 {
+    grid-column: 1/-1;
+    grid-row: 13/23
+  }
 
-#sbild3{
-  grid-column: 1/-1;
-  grid-row: 28/34
-}
+  #sbild3 {
+    grid-column: 1/-1;
+    grid-row: 28/34
+  }
 
-#sforetaget{
-  grid-column: 1/-1;
-  grid-row: 24/28;
-  padding-top: 2px;
-}
+  #sforetaget {
+    grid-column: 1/-1;
+    grid-row: 24/28;
+    padding-top: 2px;
+  }
 
-#section8{
-  grid-column: 1/-1;
-  grid-row: 35/45;
-}
+  #section8 {
+    grid-column: 1/-1;
+    grid-row: 35/45;
+  }
 
-  header{
+  header {
     grid-column: 1/-1;
     grid-row: 1/2
   }
 
-  footer{
+  footer {
     grid-column: 1/-1;
     grid-row: 45/50
-}
+  }
 
-    #info{
+  #info {
     width: 70%;
+  }
 
-}
-
-#footer1{
-width: 50%;
-}
+  #footer1 {
+    width: 50%;
+  }
 }

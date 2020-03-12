@@ -1,141 +1,146 @@
-.container{
+.container {
   display: grid;
-  grid-template-columns:repeat(14,1fr);
-  grid-template-rows:repeat(47,70px);
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(47, 70px);
   grid-gap: 3px;
-
 }
 
-#hstartsida{
-  position:fixed;
+#hstartsida {
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 10;
 }
 
-
-#hdesigns{
+#hdesigns {
   grid-column: 1/15;
   grid-row: 2/3;
-  text-align:center;
+  text-align: center;
 }
 
-#section21{
+#section21 {
   grid-column: 1/15;
   grid-row: 3/4;
 }
 
-#blå1{
+/*Bilder på olika blåa färger*/
+#blå1 {
   grid-column: 1/6;
-  grid-row: 4/6;
-  margin-left: 1%;
-}
-#blå2{
-  grid-column: 6/10;
-  grid-row: 4/6;
-  margin-left: 19%;
-}
-#blå3{
-  grid-column: 10/15;
-  grid-row: 4/6;
-  margin-left: 50%;
-}
-
-#section22{
-  grid-column: 1/15;
-  grid-row: 6/7;
-}
-
-#mö1{
-  grid-column: 1/6;
-  grid-row: 7/9;
+  grid-row: 4/7;
   margin-left: 1%;
 }
 
-#mö2{
+#blå2 {
   grid-column: 6/10;
-  grid-row: 7/9;
-  margin-left: 19%;
+  grid-row: 4/7;
+  margin-left: 16%;
 }
 
-#mö3{
+#blå3 {
   grid-column: 10/15;
-  grid-row: 7/9;
-  margin-left: 50%;
+  grid-row: 4/7;
+  margin-left: 46%;
 }
 
-#b{
+#section22 {
   grid-column: 1/15;
-  grid-row: 9/10
+  grid-row: 7/8;
 }
 
-footer{
+/*Bild på olika mönster*/
+#mö1 {
+  grid-column: 1/6;
+  grid-row: 8/11;
+  margin-left: 1%;
+}
+
+#mö2 {
+  grid-column: 6/10;
+  grid-row: 8/11;
+  margin-left: 18%;
+}
+
+#mö3 {
+  grid-column: 10/15;
+  grid-row: 8/11;
+  margin-left: 46%;
+}
+
+#b {
+  grid-column: 1/15;
+  grid-row: 11/12
+}
+
+footer {
   grid-column: 1/-1;
-  grid-row: 10/12
+  grid-row: 12/14
 }
 
-.ok{
-  height: 150px;
-  width: 250px;
+.ok {
+  height: 220px;
+  width: 270px;
 }
-.logga{
+
+.logga {
   height: 70px;
   width: 300px;
 }
 
-    #info{
-    width: 50%;
-     font-size: 15px;
-     left: 8px;
-     padding-top: 10px;
-     top: 750px;
+#info {
+  width: 50%;
+  font-size: 15px;
+  left: 8px;
+  padding-top: 10px;
+  top: 900px;
 }
 
-#footer1{
-width: 50%;
- font-size: 40px;
- left: 8px;
- padding-top: 10px;
- top: 670px;
+#footer1 {
+  width: 50%;
+  font-size: 40px;
+  left: 8px;
+  padding-top: 10px;
+  top: 840px;
 }
+
 @media screen and (max-width: 700px) {
-
-#hem{
-top: 90px;
-width: 20%;
-left: 6%;
- }
- #English{
- top: 150px;
- width: 25%;
- left: 6%;
+  #hem {
+    top: 90px;
+    width: 20%;
+    left: 6%;
   }
- #hdesigns{
-   grid-column: 1/15;
-   grid-row: 2/3;
-   text-align:right;
- }
 
-  header{
+  #English {
+    top: 150px;
+    width: 25%;
+    left: 6%;
+  }
+
+  #hdesigns {
+    grid-column: 1/15;
+    grid-row: 2/3;
+    text-align: right;
+  }
+
+  header {
     grid-column: 1/16;
     grid-row: 1/2
   }
 
-  footer{
+  footer {
     grid-column: 1/-1;
     grid-row: 10/12;
-}
+  }
 
-    #info{
+  #info {
     width: 50%;
-     left: 8px;
-     padding-top: 10px;
-     top:740px;
-}
+    left: 8px;
+    padding-top: 10px;
+    top: 740px;
+  }
 
-#footer1{
-width: 50%;
-left: 8px;
-}
+  #footer1 {
+    width: 50%;
+    left: 8px;
+  }
 }
