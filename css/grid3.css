@@ -75,7 +75,7 @@ footer {
   width: 100%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   #hem {
     top: 90px;
     width: 20%;
@@ -87,17 +87,39 @@ footer {
     grid-row: 1/2
   }
 
+  .ok {
+    height: 155px;
+    width: 125px;
+  }
+
+  #f1 {
+    margin-left: 1%;
+  }
+
+  #f2 {
+    margin-left: 3%;
+  }
+
+  #f3 {
+    margin-left: 25%;
+  }
+
+  #b {
+    grid-column: 1/15;
+    grid-row: 6/7
+  }
+
   footer {
     grid-column: 1/-1;
-    grid-row: 45/50
+    grid-row: 7/10
   }
 
   #info {
-    top: 900px;
+    top: 550px;
   }
 
   #footer1 {
-    top: 770px;
+    top: 400px;
   }
 
   .footer {
